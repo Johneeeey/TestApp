@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="testApp.SelectionSortPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Entry x:Name="En1" Placeholder="0" Grid.Row="0"/>
+                <Entry x:Name="En2" Placeholder="0" Grid.Row="1"/>
+                <Entry x:Name="En3" Placeholder="0" Grid.Row="2"/>
+                <Entry x:Name="En4" Placeholder="0" Grid.Row="3"/>
+                <Entry x:Name="En5" Placeholder="0" Grid.Row="4"/>
+                <Entry x:Name="En6" Placeholder="0" Grid.Row="5"/>
+                <Button Text="Сортировать" Clicked="Sort" Grid.Row="6"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -11,7 +11,7 @@ namespace testApp
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new bubbleSortPage();
 		}
 
 		protected override void OnStart ()
